@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    width: flex;
+    position: space-between;
+    z-index: center;
+    padding: 0 20px;
+    background-color: rgba(36, 33, 33, 0.452);
+    color: aliceblue;
+}
+
+header h1 {
+    margin-left: 100px;
+}
+
+header nav {
+    margin-right: 100px;
+    width: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header li {
+    margin-left: 50px;
+}
+
+section.main  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+section.main .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
+    margin-bottom: 30%;
+    margin-right: 30%;
+}
+
+section.main .content h2 {
+    font-size: x-large;
+    margin-right: 60%;
+}
+
+section.main .content h3 {
+    font-size: xx-large;
+}
+
+section.main img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    object-fit: cover;
+    height: 100vh;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.hireme-btn {
+    padding: 1rem 3em;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background: rgb(30, 33, 30);
+    cursor: pointer;
+    transition: transform 0.4s ease-out, box-shadow 0.4s ease-out;
+    margin-right: 50%;
+}
+
+section.services h4 {
+    width: flex;
+    position: space-between;
+    z-index: center;
+    padding: 0 20px;
+    background-color: rgba(36, 33, 33, 0.452);
+    color: aliceblue;
+}
