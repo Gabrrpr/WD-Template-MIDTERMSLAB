@@ -71,24 +71,3 @@ section.main img {
     opacity: 0.8;
     z-index: -1;
 }
-
-.hireme-btn {
-    padding: 1rem 3em;
-    font-size: 1rem;
-    border-radius: 5px;
-    border: none;
-    color: white;
-    background: rgb(30, 33, 30);
-    cursor: pointer;
-    transition: transform 0.4s ease-out, box-shadow 0.4s ease-out;
-    margin-right: 50%;
-}
-
-section.services h4 {
-    width: flex;
-    position: space-between;
-    z-index: center;
-    padding: 0 20px;
-    background-color: rgba(36, 33, 33, 0.452);
-    color: aliceblue;
-}
